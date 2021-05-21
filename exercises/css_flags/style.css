@@ -1,0 +1,25 @@
+/*CSS Flags */
+
+.letter {
+	width: 300px;
+	height: 400px;
+	border:1px solid black;
+	position: relative;
+}
+
+.letter-a-frame {
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 400px solid red;
+}
+
+.letter-a-crossbar {
+	position: absolute;
+	top: 250px;
+	width: 300px;
+	height: 25px;
+	background-color: white;
+}

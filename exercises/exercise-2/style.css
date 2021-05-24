@@ -1,0 +1,74 @@
+/*CSS Flags */
+
+.flag {
+	display: grid;
+}
+
+/* Start flag peter style */
+.flag-peter {
+	width: 650px;
+	height: 450px;
+	grid-template-columns: 185px 47px 185px 47px 185px;
+	grid-template-rows: 50px 350px 50px;
+}
+
+.flag-peter div {
+	/*border: 1px solid black;*/
+}
+
+.grid-item-black {
+	background-color: black;
+	grid-column-start: 1;
+	grid-column-end: span 5;
+}
+
+.grid-item-red {
+	background-color: rgb(255,0,0);
+}
+
+.grid-item-white {
+	background-color: white;
+}
+
+.grid-item-green {
+	background-color: rgb(0,255,0);
+}
+
+.grid-item-blue {
+	background-color: rgb(0,0,255);
+}
+
+/* End flag peter style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

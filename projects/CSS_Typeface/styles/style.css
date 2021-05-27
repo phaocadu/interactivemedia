@@ -3,8 +3,8 @@
 /* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
 
 .letter {
-	width:500px; /*resize as you see fit */
-	height:500px; /*resize as you see fit */
+	width:200px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
 	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
 	border:1px solid #000; /*feel free to remove or hide this rule */
 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
@@ -27,14 +27,32 @@
 	background-color: #000000;
 }
 
-.triangle {
+.oval {
 	position: absolute;
-	width: 0;
-	height: 0;
-	border-left: 150px solid transparent;
-	border-right: 150px solid transparent;
-	border-bottom: 300px solid red;
+	width: 150px;
+	height: 250px;
+	border-radius: 50%;
+	background: black;
+	left: 25px;
+	top: 25px;
 }
+
+.oval:before {
+	width: 150px;
+	height: 250px;
+	border-radius: 50%;
+	background: white;
+	display: inline-block;
+	vertical-align: middle;
+	content: '';
+	transform: scale(0.60);
+	margin-left: 40px;
+}
+
+
+
+
+
 
 
 

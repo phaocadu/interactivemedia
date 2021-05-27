@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #2323DE;
+	color: white;
+	font-size: 2.5em;
+	font-family: 'Old Standard TT', Times New Roman, serif;
+}
+
+div {
+	width: 100%;
+	border-bottom: 2px solid black;
+	padding: 50px;
+}
+
+div:hover {
+	background: #000000;
+}
+
+div:hover .name {
+	color: #FFFF02;
+}
+
+div:hover .interaction {
+	color: #FFFF02;
+}
+
+div:last-child{
+	border-bottom: none;
+}
+
+p {
+	display: inline-block;
+	width:45%;
+	color: white;
+}
+
+.name {
+	padding-right: 100px;
+}
+
+.interaction {
+	font-family: 'Inconsolata', monospace;
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 1.7em;
+	}
+	div {
+		padding: 34px;
+	}
+	p {
+		width: 100%;
+	}
+}

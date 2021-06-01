@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: white;
+	border:1px solid black;
+	margin-bottom:-4px;
+}
